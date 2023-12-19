@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1632074a8b51494ab8824e69fbcf2a5, type: 3}
+  m_Name: LevelContainer
+  m_EditorClassIdentifier: 
+  m_data: {fileID: 11400000}
+  levels:
+  - uniqueID: LEVEL 000
+    level: {fileID: 8585041459750541230, guid: c71160028ec60334793feaf551c0334a, type: 3}
+    levelType: 0
+    texture: {fileID: 2800000, guid: fdebd293cd83b2e4d97ff45023cce9f8, type: 3}
+    scaleFactor: 16
+    time: 15
+    aiPower: 3
+  - uniqueID: LEVEL 000
+    level: {fileID: 8585041459750541230, guid: c71160028ec60334793feaf551c0334a, type: 3}
+    levelType: 1
+    texture: {fileID: 2800000, guid: a288e41f55d3074448f675cf4d28449a, type: 3}
+    scaleFactor: 27
+    time: 15
+    aiPower: 3
+  - uniqueID: LEVEL 001
+    level: {fileID: 7829046399459785764, guid: f146db29deeb34a4bb172dc9e44b0da9, type: 3}
+    levelType: 2
+    texture: {fileID: 2800000, guid: 3e27c82cdf472454c87896a9dc987252, type: 3}
+    scaleFactor: 20
+    time: 15
+    aiPower: 3
+  - uniqueID: LEVEL 000
+    level: {fileID: 2079146057926713673, guid: badb94d793b371145a1e21030a4ba8db, type: 3}
+    levelType: 0
+    texture: {fileID: 2800000, guid: bf838b61ed5f02c48bd3b29c0e59e2e3, type: 3}
+    scaleFactor: 30
+    time: 30
+    aiPower: 3
+  - uniqueID: LEVEL 001
+    level: {fileID: 562897892635300072, guid: d8306450ead8ce14f9a9dff312396ad9, type: 3}
+    levelType: 2
+    texture: {fileID: 2800000, guid: 03574bac2d0f19349bcd2c01967d8f3f, type: 3}
+    scaleFactor: 30
+    time: 0
+    aiPower: 3
